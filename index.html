@@ -13,44 +13,39 @@
     <main>
         <section id = "login">
             <div id = "imagem">
-             Foto   
+              
 
             </div>
 
             <div id = "formulario">
                 <h1>Login</h1>
-                <p> Seja bem-vindo!(a)< novamente. FAça seu login para acessar sua conta e poder fazer as configurações no seu ambiente. </p>
-                <form action="login.php" method="post autocomplete "on>
-                       
-             
+                <p> Seja bem-vindo!(a)novamente. FAça seu login para acessar sua conta e poder fazer as configurações no seu ambiente. </p>
+               <form action="login.php" method="post" autocomplete="on">
+    <!-- Campo de Login (com ícone e input dentro da label) -->
+    <div class="campo">
+        <span class="material-symbols-outlined">person</span>
+        <label for="ilogin">
+            <input type="email" name="login" id="ilogin" placeholder="Digite seu login" autocomplete="email" required maxlength="30">
+        </label>
+    </div>
 
-                <div class = "campo">
-          <span class="material-symbols-outlined">
-person
-</span>
-                
-             
-              <input type ="email" name = "login" id = "ilogin" placeholder = "Digite seu login" autocomplete "e-mail" required maxlength = "30">
-              <label form ="ilogin">Login</label>
+    <!-- Campo de Senha (com ícone e input dentro da label) -->
+    <div class="campo">
+        <span class="material-symbols-outlined">vpn_key</span>
+        <label for="isenha">
+            <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" autocomplete="current-password" required minlength="8" maxlength="20">
+        </label>
+    </div>
 
-                </div>
-                <div class ="Campo">
-     <span class="material-symbols-outlined">
-vpn_key
-</span>
-                
-                <input type = "password" name = "senha" id = "isenha" placeholder = "Digite sua senha" autocomplete "current-password" required minlength = "8" maxlength = "20">
-                  <label form = "isenha">Senha</label>  
-
-
-                </div>
-                <input type="submit" value="Entrar">
-          <a href="esqueci.html ">Esqueci a senha</a> <span class="material-symbols-outlined">
-mail
-</span>
-
-               </form>
-
+    <!-- Botão de Entrar -->
+    <input type="submit" value="Entrar">
+    
+    <!-- Link 'Esqueci a senha' -->
+    <a href="esqueci.html" class="botao">
+        Esqueci a senha
+        <span class="material-symbols-outlined">mail</span>
+    </a>
+</form>
                 </div>
 
         </section>
