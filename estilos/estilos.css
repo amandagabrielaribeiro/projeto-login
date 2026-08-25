@@ -54,7 +54,7 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background :#5f2c82 url(../imagens/pexels-evan-velez-saxer-44054850-10347252.jpg) no-repeat;
+    background :#5f2c82 url('../imagens/fundo.jpg') no-repeat;
     background-size: cover;
     background-position:   center center ;
     height: 200px;
@@ -102,7 +102,7 @@ div.campo >input {
     border: 0px;
     border-radius: 8px;
     outline: none;
-    width: calc(100% -44px);
+    width: calc(100% - 44px);
     height: 100%;
     padding: 4px;
     transform: translateX(-12px);
